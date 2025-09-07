@@ -1,13 +1,15 @@
- @import ‘ñbootstrap/scss/Bootstrap.scss’;
+@import 'bootstrap';
+/*@import '~bootstrap/scss/Bootstrap.scss'; ese estaba orginalmente en el video */ 
+
 
 .bigCounter{
-text-align: center; center;
+text-align: center;
 background: black;
 }
-bigCouunter div{
+.bigCouunter div{
 display: inline-block;
-fontsize: 60px;
-line-height: 60;
+font-size: 60px;
+line-height: 60px;
 background: #101010;
 color: white;
 padding: 10px;
